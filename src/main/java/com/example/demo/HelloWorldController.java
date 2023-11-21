@@ -21,7 +21,8 @@ public class HelloWorldController
     //this is second endpoint
     @RequestMapping("/second")
     public String second()
-    {
+    {    
+        System.out.println("hey");
         return "Hello second endpoint";
     }
 }
